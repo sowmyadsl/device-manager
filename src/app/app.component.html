@@ -3,6 +3,4 @@
   <h1> Device Manager </h1>
 </div>
 
-<ul>
-    <li *ngFor="let device of devices">{{device.name}}</li>
-</ul>
+<device-list [devices]="devices"></device-list>

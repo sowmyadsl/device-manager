@@ -1,0 +1,21 @@
+<ul>
+  <li *ngFor="let device of devices">
+    <figure>
+      <img src="{{device.image}}" alt="{{device.name}}">
+      <figcaption>
+
+      </figcaption>
+    </figure>
+  <!-- lists the device info -->
+    <div class="device-info">
+      <h4>Device Info:</h4>
+      <p><strong>Name:</strong> {{device.name}}
+        <p><strong>Location:</strong> {{device.location}}</p>
+        <p><strong>Role:</strong> {{device.role}}</p>
+        <p><strong>Status:</strong> {{device.status}}</p>
+        <p><strong>History:</strong> {{device.history}}</p>
+        <p><strong>Date:</strong> {{device.date}}</p>
+        <hr>
+      </div>
+    </li>
+  </ul>
