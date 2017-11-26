@@ -2,6 +2,16 @@
 
 A Single Page Web application that lets user to view all the devices, edit and delete devices. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
+
+It handles the following user stories:
+
+* As a user, I'd like to visit the splash page to see a list of all devices.
+* As a user, I'd like to click on device to view more info.
+* As a user, I'd like to add a new device to the page.
+* As a user, I'd like to edit a device.
+* As a user, I'd like to remove a device.
+* As a user, I'd like to search a device from a list of devices by name.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

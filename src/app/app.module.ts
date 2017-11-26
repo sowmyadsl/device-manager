@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DeviceListComponent } from './device-list.component';
+import { NewDeviceComponent } from './new-device/new-device.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DeviceListComponent
+    DeviceListComponent,
+    NewDeviceComponent
   ],
   imports: [
     BrowserModule,FormsModule, HttpModule
