@@ -1,6 +1,6 @@
 # DeviceManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+A Single Page Web application that lets user to view all the devices, edit and delete devices. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
 ## Development server
 
