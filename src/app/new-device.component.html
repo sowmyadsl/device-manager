@@ -1,4 +1,4 @@
-<!-- New form to add a new animal -->
+<!-- New form to add a new device -->
 <h1>New Device</h1>
     <div class="form-group">
       <label name="new-name">New Name </label>
@@ -9,36 +9,24 @@
       <input #newImage>
     </div>
     <div class="form-group">
-      <label name="new-name">New name</label>
-      <input #newName>
-    </div>
-    <div class="form-group">
-      <label name="new-age">New age</label>
-      <input #newAge>
-    </div>
-    <div class="form-group">
-      <label name="new-diet">New diet</label>
-      <input #newDiet>
-    </div>
-    <div class="form-group">
       <label name="new-location">New location</label>
       <input #newLocation>
     </div>
     <div class="form-group">
-      <label name="new-caretakers">New caretakers</label>
-      <input #newCaretakers>
+      <label name="new-role">New role</label>
+      <input #newRole>
     </div>
     <div class="form-group">
-      <label name="new-sex">New sex</label>
-      <input #newSex>
+      <label name="new-status">New status</label>
+      <input #newStatus>
     </div>
-      <div class="form-group">
-      <label name="new-likes">New likes</label>
-      <input #newLikes>
-      </div>
-      <div class="form-group">
-      <label name="new-dislikes">New dislikes</label>
-      <input #newDislikes>
-      </div>
+    <div class="form-group">
+      <label name="new-history">New history</label>
+      <input #newHistory>
+    </div>
+    <div class="form-group">
+      <label name="new-date">New Date</label>
+      <input #newDate>
+    </div>
       <br>
-      <button (click)="newAnimal(newSpecies.value, newImage.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newSpecies.value=''; newImage.value=''; newName.value=''; newAge.value=''; newDiet.value=''; newLocation.value=''; newCaretakers.value=''; newSex.value=''; newLikes.value=''; newDislikes.value='';">Add!</button>
+      <button (click)="newDevice(newName.value, newImage.value, newLocation.value, newRole.value, newStatus.value, newHistory.value, newDate.value); newName.value=''; newImage.value=''; newLocation.value=''; newRole.value=''; newStatus.value=''; newHistory.value=''; newDate.value='';>Add!</button>
