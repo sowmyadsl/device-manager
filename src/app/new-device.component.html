@@ -1,5 +1,6 @@
 <!-- New form to add a new device -->
-<h1>New Device</h1>
+<button (click)="changeShowStatus()">New Device</button>
+  <form  *ngIf="showHide">
     <div class="form-group">
       <label name="new-name">New Name </label>
       <input #newName>
@@ -29,4 +30,5 @@
       <input #newDate>
     </div>
       <br>
-      <button (click)="newDevice(newName.value, newImage.value, newLocation.value, newRole.value, newStatus.value, newHistory.value, newDate.value); newName.value=''; newImage.value=''; newLocation.value=''; newRole.value=''; newStatus.value=''; newHistory.value=''; newDate.value='';>Add!</button>
+      <button (click)="newDevice(newName.value, newImage.value, newLocation.value, newRole.value, newStatus.value, newHistory.value, newDate.value); newName.value=''; newImage.value=''; newLocation.value=''; newRole.value=''; newStatus.value=''; newHistory.value=''; newDate.value='';">Add!</button>
+  </form>

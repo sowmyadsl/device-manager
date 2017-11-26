@@ -3,12 +3,21 @@ import { Device } from './device.model';
 
 
 @Component({
-  selector: 'app-new-device',
+  selector: 'new-device',
   templateUrl: './new-device.component.html',
   styleUrls: ['./new-device.component.css']
 })
 export class NewDeviceComponent  {
   @Output() newDeviceSender = new EventEmitter;
+  showHide: boolean;
+
+  constructor() {
+    this.showHide = false;
+  }
+
+  changeShowStatus(){
+   this.showHide = !this.showHide;
+ }
 
   newDevice (
    name: string,
@@ -21,6 +30,8 @@ export class NewDeviceComponent  {
  ){
    var newDevice = new Device(name, image, location, role, status, history, date);
    this.newDeviceSender.emit(newDevice);
+
+
  }
 
 }
