@@ -1,4 +1,4 @@
-export class Device{
+export class Device {
   constructor (
     public name: string,
     public image: string,
@@ -6,5 +6,5 @@ export class Device{
     public role: string,
     public status: string,
     public history: string,
-    public date: any){}
+    public date: string){}
 }
