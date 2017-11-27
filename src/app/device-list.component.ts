@@ -9,6 +9,7 @@ import { Device } from './device.model';
 })
 export class DeviceListComponent {
   filterByWords: any[];
+  filterByCategory: string;
   showHide: boolean;
 
   constructor() {
@@ -19,6 +20,10 @@ export class DeviceListComponent {
    this.showHide = !this.showHide;
  }
 
+ onChange(menuOption){
+   this.filterByCategory = menuOption;
+ }
+
   @Input() devices: Device[];
 
   searchByTerm(searchString){
@@ -26,4 +31,5 @@ export class DeviceListComponent {
     console.log(searchWords);
     this.filterByWords = searchWords;
   }
+
 }

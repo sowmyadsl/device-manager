@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { DeviceListComponent } from './device-list.component';
 import { NewDeviceComponent } from './new-device.component';
 import { SearchFilterPipe } from './search-filter.pipe';
-import { CategoryFilterPipe } from './category-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,6 @@ import { CategoryFilterPipe } from './category-filter.pipe';
     DeviceListComponent,
     NewDeviceComponent,
     SearchFilterPipe,
-    CategoryFilterPipe,
     
   ],
   imports: [
