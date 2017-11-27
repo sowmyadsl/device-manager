@@ -14,7 +14,8 @@ import { CategoryFilterPipe } from './category-filter.pipe';
     DeviceListComponent,
     NewDeviceComponent,
     SearchFilterPipe,
-    CategoryFilterPipe
+    CategoryFilterPipe,
+    
   ],
   imports: [
     BrowserModule,FormsModule, HttpModule
