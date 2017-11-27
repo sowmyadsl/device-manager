@@ -8,7 +8,7 @@ import { Device } from './device.model';
 })
 export class AppComponent {
   devices: Device[] = [{
-      name: "dev-1538-l",
+      name: "dev-1538",
       image: "http://www.vodafone.com/content/dam/vodafone-images/devices/tiles/vodafone-smart-v8.png",
       location: [45.524700,   -122.674693],
       role: "low",
@@ -16,7 +16,7 @@ export class AppComponent {
       history: "Down for maintenance",
       date: "2017-04-03"
     },{
-      name: "dev-1540-l",
+      name: "dev-1540",
       image: "http://www.vodafone.com/content/dam/vodafone-images/devices/tiles/vodafone-smart-v8.png",
       location: [45.524700,   -122.674693],
       role: "high",
@@ -24,7 +24,7 @@ export class AppComponent {
       history: "Down for maintenance",
       date: "2017-06-03"
     },{
-      name: "dev-1542-l",
+      name: "dev-1542",
       image: "http://www.vodafone.com/content/dam/vodafone-images/devices/tiles/vodafone-smart-v8.png",
       location: [45.524700,   -122.674693],
       role: "high",

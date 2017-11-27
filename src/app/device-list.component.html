@@ -12,7 +12,7 @@
 </div>
 
 <ul>
-  <li *ngFor="let device of devices">
+  <li *ngFor="let device of devices | searchFilter:filterByWords">
       <figure>
         <img src="{{device.image}}" alt="{{device.name}}">
         <figcaption>
