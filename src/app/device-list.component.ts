@@ -8,9 +8,16 @@ import { Device } from './device.model';
   styleUrls: ['./device-list.component.css']
 })
 export class DeviceListComponent {
+  filterByWords: any[];
 
   @Input() devices: Device[];
 
+
+  searchByTerm(searchString){
+    var searchWords = searchString.toLowerCase().split(' ');
+    console.log(searchWords);
+    this.filterByWords = searchWords;
+  }
 
 
 }
