@@ -9,7 +9,7 @@ import { Device } from './device.model';
 })
 export class DeviceListComponent {
   filterByWords: any[];
-  filterByCategory: string;
+  filterByRole: string;
   showHide: boolean;
 
   constructor() {
@@ -21,7 +21,7 @@ export class DeviceListComponent {
  }
 
  onChange(menuOption){
-   this.filterByCategory = menuOption;
+   this.filterByRole = menuOption;
  }
 
   @Input() devices: Device[];
