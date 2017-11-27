@@ -13,14 +13,14 @@
 
 <ul>
   <li *ngFor="let device of devices | searchFilter:filterByWords">
-      <figure>
+      <figure (click)="changeShowStatus()">
         <img src="{{device.image}}" alt="{{device.name}}">
         <figcaption>
           {{device.name}}
         </figcaption>
       </figure>
     <!-- lists the device info -->
-    <div class="device-info">
+    <div class="device-info" *ngIf="showHide">
       <h4>Device Info:</h4>
         <p><strong>Name:</strong> {{device.name}}
         <p><strong>Location:</strong> {{device.location}}</p>
