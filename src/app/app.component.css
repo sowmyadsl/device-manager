@@ -1,4 +1,7 @@
 .jumbotron {
-  background: lightblue;
+  background-image:url('/assets/images/device.jpg');
+  background-repeat:no-repeat;
+  background-position: cover;
   text-align: center;
+  color: white;
 }

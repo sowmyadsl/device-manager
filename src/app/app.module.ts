@@ -5,12 +5,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { DeviceListComponent } from './device-list.component';
 import { NewDeviceComponent } from './new-device.component';
+import { SearchFilterPipe } from './search-filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     DeviceListComponent,
-    NewDeviceComponent
+    NewDeviceComponent,
+    SearchFilterPipe
   ],
   imports: [
     BrowserModule,FormsModule, HttpModule

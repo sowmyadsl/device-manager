@@ -1,3 +1,16 @@
+<div class="sort-box">
+  <select class="form-control" (change)="onChange($event.target.value)">
+    <option value="" disabled selected>Sort By Category</option>
+    <option value="history">History</option>
+    <option value="status">Status</option>
+  </select>
+
+  <div class="search-box">
+    <input class="form-control" type="text" name="search" placeholder="Search by name" #Searchstring>
+    <button class="btn btn-search" (click)="searchByTerm(Searchstring.value)">Search</button>
+  </div>
+</div>
+
 <ul>
   <li *ngFor="let device of devices">
       <figure>
