@@ -32,7 +32,7 @@ As of writing this README, these instructions work on MacOS.
 
 Run `$ git clone https://github.com/sowmyadsl/device-manager`
 Then `$ cd device-manager`
-Once in the device-manager folder, run `$ npm install`, `$bower init`(just press enter through the prompts), `$ bower install bootstrap --save`,`$ bower install jquery --save`.
+navigate to the device-manager folder, run `$ npm install`, `$bower init`(just press enter through the prompts), `$ bower install bootstrap --save`,`$ bower install jquery --save`.
 
 ## Running / Development
 
