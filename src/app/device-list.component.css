@@ -69,3 +69,13 @@ select:focus {
 .btn-search {
   border: 1px solid black;
 }
+
+.refresh {
+  margin: 10px;
+}
+
+
+.refresh-button {
+  width: 26px;
+  height: 26px;
+}

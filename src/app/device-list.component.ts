@@ -26,6 +26,10 @@ export class DeviceListComponent {
 
   @Input() devices: Device[];
 
+  refresh(): void {
+    window.location.reload();
+}
+
   searchByTerm(searchString){
     var searchWords = searchString.toLowerCase().split(' ');
     console.log(searchWords);
