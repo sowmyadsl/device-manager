@@ -3,19 +3,16 @@
   <h1>Device Manager</h1>
 </div>
 
+<!-- navbar -->
 <nav>
     <a href="#">HOME /</a>
     <a href="#">ABOUT /</a>
     <a href="#">CONTACT</a>
 </nav>
-<hr>
 
 
 <div class="row">
-  <div class="col-md-3">
-    <new-device (newDeviceSender)="newDevice($event)"></new-device>
-  </div>
-  <div class="col-md-7">
+  <div class="col-md-12">
     <device-list [devices]="devices"></device-list>
   </div>
 </div>

@@ -1,12 +1,13 @@
 .jumbotron {
-  background-color: #292F36;
+  background-color: #162044;
   margin-bottom: 0;
   padding-bottom: 10px;
+  padding-left: 10px;
   color: white;
 }
 
 nav {
- background-color: #FF6B6B;
+ background-color: #95989E;
   padding: 10px;
 }
 
