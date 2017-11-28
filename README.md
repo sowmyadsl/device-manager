@@ -1,4 +1,4 @@
-# DeviceManager
+# Device Manager
 
 A Single page web app for managing list of distinct devices. Built with AngularCLI, Bootstrap, and CSS.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
@@ -26,9 +26,20 @@ Further Explorations :
 * As a user, I'd like to edit a device.
 * As a user, I'd like to remove a device.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+As of writing this README, these instructions work on MacOS.
+
+Run `$ git clone https://github.com/sowmyadsl/device-manager`
+Then `$ cd device-manager`
+Once in the device-manager folder, run `$ npm install`, `$bower init`(just press enter through the prompts), `$ bower install bootstrap --save`,`$ bower install jquery --save`.
+
+## Running / Development
+
+  Now that everything you need should be installed and setup, we can run it with angular.
+
+  * Run `$ ng serve`
+  * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Code scaffolding
 
@@ -37,15 +48,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
