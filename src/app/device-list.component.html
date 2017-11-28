@@ -4,9 +4,9 @@
     <button class="btn btn-search" (click)="searchByTerm(Searchstring.value)">Search</button>
   </div>
 
+<h5>Sort By</h5>
   <select class="form-control" (change)="onChange($event.target.value)" placeholder="Filter by Role">
-    <!-- <option value="" disabled selected>Filter By Role</option> -->
-    <option value="allRoles" selected>allRoles</option>
+    <option value="allRoles">all roles</option>
     <option value="low">low</option>
     <option value="high">high</option>
   </select>

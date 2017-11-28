@@ -36,9 +36,8 @@ input {
 }
 
 select {
-  width: 500px;
+  width: 300px;
   padding: 20px;
-  margin-top: 10px;
 }
 
 select:focus {
@@ -46,19 +45,25 @@ select:focus {
 }
 
 .sort-box {
-  margin: 25px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
   height: 80px;
-  display: block;
+  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px 10px 0px 10px;
-  justify-content: space-between;
+}
+
+.sort-box h5{
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #162044;
+  color: white;
 }
 
 .search-box {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 30%;
 }
 
 .btn-search {
