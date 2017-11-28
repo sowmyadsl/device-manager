@@ -4,7 +4,7 @@ A Single page web app for managing list of distinct devices. Built with AngularC
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
 ## Landing Page:
-![screenshot]()
+![screenshot](https://github.com/sowmyadsl/device-manager/blob/master/src/assets/images/screenshot.png)
 
 ## Planning
 
