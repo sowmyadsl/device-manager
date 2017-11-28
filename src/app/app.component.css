@@ -1,11 +1,18 @@
 .jumbotron {
-  background-image:url('/assets/images/device.jpg');
-  background-repeat:no-repeat;
-  background-position: cover;
-  text-align: center;
+  background-color: #292F36;
+  margin-bottom: 0;
+  padding-bottom: 10px;
   color: white;
 }
 
-h1{
+nav {
+ background-color: #FF6B6B;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
   text-align: center;
+  color: white;
+  font-size: 18px;
 }

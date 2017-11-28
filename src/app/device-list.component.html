@@ -1,19 +1,19 @@
 <div class="sort-box">
+  <div class="search-box">
+    <input class="form-control" type="text" name="search" placeholder="Search by Name" #Searchstring>
+    <button class="btn btn-search" (click)="searchByTerm(Searchstring.value)">Search</button>
+  </div>
+
   <select class="form-control" (change)="onChange($event.target.value)" placeholder="Filter by Role">
     <!-- <option value="" disabled selected>Filter By Role</option> -->
     <option value="allRoles" selected>allRoles</option>
     <option value="low">low</option>
     <option value="high">high</option>
   </select>
-
-  <div class="search-box">
-    <input class="form-control" type="text" name="search" placeholder="Search by Name" #Searchstring>
-    <button class="btn btn-search" (click)="searchByTerm(Searchstring.value)">Search</button>
-  </div>
 </div>
 
 <ul>
-  <li *ngFor="let device of devices | roleSort:filterByRole | searchFilter:filterByWords">
+  <li *ngFor="let device of devices |  searchFilter:filterByWords | roleSort:filterByRole ">
       <figure>
         <img src="{{device.image}}" alt="{{device.name}}">
         <figcaption>
