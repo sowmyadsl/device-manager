@@ -1,11 +1,12 @@
 <!--The whole content below can be removed with the new code.-->
-<div class="jumbotron">
+<div class="container">
   <h1> Device Manager </h1>
   <img src="" alt="">
 </div>
+<hr>
 <div class="row">
   <div class="col-md-3">
-    <new-device></new-device>
+    <new-device (newDeviceSender)="newDevice($event)"></new-device>
   </div>
   <div class="col-md-7">
     <device-list [devices]="devices"></device-list>

@@ -1,16 +1,14 @@
 # DeviceManager
 
-A Single Page Web application that lets user to view all the devices, edit and delete devices. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
-
+A Single page web app for managing list of distinct devices. Built with AngularCLI, Bootstrap, and CSS.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
 It handles the following user stories:
 
 * As a user, I'd like to visit the splash page to see a list of all devices.
-* As a user, I'd like to click on device to view more info.
 * As a user, I'd like to search a device from a list of devices by name.
 
-
-Further Exploration:
+Further Explorations :
 * As a user, I'd like to view location on maps.
 * As a user, I'd like to add a new device to the page.
 * As a user, I'd like to edit a device.
